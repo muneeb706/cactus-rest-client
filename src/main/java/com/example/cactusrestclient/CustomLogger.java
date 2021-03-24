@@ -19,13 +19,18 @@ public class CustomLogger {
 		
 		try {
 			records += 1;
+			
 			String logText = String.valueOf(records).concat(data.toString()).concat("\n");
+			
 			Path path = Paths.get(logFile);
+			
 			if (!logFileExists(path)) {
 				Files.createFile(path);
 			}
+			
 		    Files.write(path, logText.getBytes(), StandardOpenOption.APPEND);
-		}catch (IOException e) {
+		
+		} catch (IOException e) {
 		    System.out.println("Error: ".concat(e.getMessage()));
 		}
 	}
@@ -33,16 +38,20 @@ public class CustomLogger {
 	public static List<String> getLogs() {
 		
 		List<String> history = new ArrayList<String>();
+		
 		Path path = Paths.get(logFile);
+		
 		if (logFileExists(path)) {
+		
 			try (Stream<String> stream = Files.lines(Paths.get(logFile))) {
-			    stream.forEach((line)->history.add(line));
+			
+				stream.forEach((line)->history.add(line));
+			
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
 
-		
 		return history;
 		
 	}
