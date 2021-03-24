@@ -29,6 +29,9 @@ public class CactusRestClient {
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	@Autowired
+	private CustomLogger customLogger;
+	
 	
 	@RequestMapping("/{identifier}/{representation}")
 	public Response getChemicalStructureInfo(@PathVariable("identifier") String identifier, @PathVariable("representation") String representation ) {
@@ -50,7 +53,7 @@ public class CactusRestClient {
 			response = new Response(identifier, representation, ERROR, ERROR_MESSAGE);
 		}
 		
-		CustomLogger.log(response);
+		customLogger.log(response);
 		
 		return response;
 		
@@ -58,6 +61,6 @@ public class CactusRestClient {
 	
 	@RequestMapping("/history")
 	public List<String> getHistory() {
-		return CustomLogger.getLogs();
+		return customLogger.getLogs();
 	}
 }
