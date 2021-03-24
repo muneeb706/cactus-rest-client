@@ -12,17 +12,22 @@ import java.util.stream.Stream;
 
 public class CustomLogger {
 	
-	private static String logFile = "./conversations.txt";
-	private static int records = 0; 
+	private String logFile;
+	private int records; 
 	
-	public static void log(Object data) {
+	public CustomLogger() {
+		this.setLogFile("./conversations.txt");
+		this.setRecords(0);
+	}
+	
+	public void log(Object data) {
 		
 		try {
-			records += 1;
+			setRecords(getRecords() + 1);
 			
-			String logText = String.valueOf(records).concat(data.toString()).concat("\n");
+			String logText = String.valueOf(getRecords()).concat(data.toString()).concat("\n");
 			
-			Path path = Paths.get(logFile);
+			Path path = Paths.get(getLogFile());
 			
 			if (!logFileExists(path)) {
 				Files.createFile(path);
@@ -35,15 +40,15 @@ public class CustomLogger {
 		}
 	}
 	
-	public static List<String> getLogs() {
+	public List<String> getLogs() {
 		
 		List<String> history = new ArrayList<String>();
 		
-		Path path = Paths.get(logFile);
+		Path path = Paths.get(getLogFile());
 		
 		if (logFileExists(path)) {
 		
-			try (Stream<String> stream = Files.lines(Paths.get(logFile))) {
+			try (Stream<String> stream = Files.lines(Paths.get(getLogFile()))) {
 			
 				stream.forEach((line)->history.add(line));
 			
@@ -56,8 +61,24 @@ public class CustomLogger {
 		
 	}
 	
-	private static boolean logFileExists(Path path) {
+	private boolean logFileExists(Path path) {
 		return Files.exists(path, LinkOption.NOFOLLOW_LINKS);
+	}
+
+	public String getLogFile() {
+		return logFile;
+	}
+
+	public void setLogFile(String logFile) {
+		this.logFile = logFile;
+	}
+
+	public int getRecords() {
+		return records;
+	}
+
+	public void setRecords(int records) {
+		this.records = records;
 	}
 
 }
