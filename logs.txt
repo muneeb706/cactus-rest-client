@@ -1,0 +1,98 @@
+2021-03-24 17:09:09.673  INFO 13800 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 13800 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:09:09.678 DEBUG 13800 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:09:09.679  INFO 13800 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:09:11.498  INFO 13800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:09:11.518  INFO 13800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:09:11.518  INFO 13800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:09:11.643  INFO 13800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:09:11.644  INFO 13800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1863 ms
+2021-03-24 17:09:12.031  INFO 13800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:09:12.377  INFO 13800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:09:12.400  INFO 13800 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.53 seconds (JVM running for 4.27)
+2021-03-24 17:09:15.685  INFO 13800 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:09:15.686  INFO 13800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:09:15.688  INFO 13800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-24 17:10:35.758  INFO 20088 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 20088 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:10:35.761 DEBUG 20088 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:10:35.762  INFO 20088 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:10:37.581  INFO 20088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:10:37.605  INFO 20088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:10:37.606  INFO 20088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:10:37.741  INFO 20088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:10:37.742  INFO 20088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1894 ms
+2021-03-24 17:10:38.097  INFO 20088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:10:38.430  INFO 20088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:10:38.450  INFO 20088 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.373 seconds (JVM running for 4.085)
+2021-03-24 17:10:44.987  INFO 20088 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:10:44.987  INFO 20088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:10:44.989  INFO 20088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-24 17:16:35.670  INFO 25636 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 25636 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:16:35.674 DEBUG 25636 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:16:35.675  INFO 25636 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:16:37.455  INFO 25636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:16:37.471  INFO 25636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:16:37.472  INFO 25636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:16:37.594  INFO 25636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:16:37.595  INFO 25636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1827 ms
+2021-03-24 17:16:37.968  INFO 25636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:16:38.284  INFO 25636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:16:38.297  INFO 25636 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.342 seconds (JVM running for 4.048)
+2021-03-24 17:16:41.386  INFO 25636 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:16:41.386  INFO 25636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:16:41.388  INFO 25636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-24 17:20:20.272  INFO 20112 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 20112 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:20:20.276 DEBUG 20112 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:20:20.277  INFO 20112 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:20:21.926  INFO 20112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:20:21.945  INFO 20112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:20:21.946  INFO 20112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:20:22.074  INFO 20112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:20:22.074  INFO 20112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1704 ms
+2021-03-24 17:20:22.370  INFO 20112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:20:22.660  INFO 20112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:20:22.678  INFO 20112 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.152 seconds (JVM running for 3.883)
+2021-03-24 17:20:26.677  INFO 20112 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:20:26.678  INFO 20112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:20:26.680  INFO 20112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 17:29:36.875  INFO 17216 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 17216 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:29:36.880 DEBUG 17216 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:29:36.881  INFO 17216 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:29:38.451  INFO 17216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:29:38.480  INFO 17216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:29:38.481  INFO 17216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:29:38.595  INFO 17216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:29:38.595  INFO 17216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1619 ms
+2021-03-24 17:29:38.889  INFO 17216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:29:39.175  INFO 17216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:29:39.190  INFO 17216 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.121 seconds (JVM running for 3.836)
+2021-03-24 17:29:49.513  INFO 17216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:29:49.514  INFO 17216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:29:49.516  INFO 17216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-24 17:33:59.621  INFO 24792 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 24792 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:33:59.626 DEBUG 24792 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:33:59.627  INFO 24792 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:34:01.251  INFO 24792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:34:01.271  INFO 24792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:34:01.272  INFO 24792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:34:01.379  INFO 24792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:34:01.379  INFO 24792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1670 ms
+2021-03-24 17:34:01.688  INFO 24792 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:34:01.996  INFO 24792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:34:02.016  INFO 24792 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.155 seconds (JVM running for 3.888)
+2021-03-24 17:34:07.460  INFO 24792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:34:07.460  INFO 24792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:34:07.462  INFO 24792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-24 17:34:25.064  INFO 3892 --- [main] c.e.c.CactusRestClientApplication        : Starting CactusRestClientApplication using Java 15.0.2 on DESKTOP-4T6GJAB with PID 3892 (E:\Github\My Projects\cactus-rest-client\target\classes started by mabbi in E:\Github\My Projects\cactus-rest-client)
+2021-03-24 17:34:25.068 DEBUG 3892 --- [main] c.e.c.CactusRestClientApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-24 17:34:25.068  INFO 3892 --- [main] c.e.c.CactusRestClientApplication        : No active profile set, falling back to default profiles: default
+2021-03-24 17:34:26.781  INFO 3892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-24 17:34:26.801  INFO 3892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-24 17:34:26.802  INFO 3892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-24 17:34:26.940  INFO 3892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-24 17:34:26.942  INFO 3892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1804 ms
+2021-03-24 17:34:27.285  INFO 3892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 17:34:27.607  INFO 3892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-24 17:34:27.630  INFO 3892 --- [main] c.e.c.CactusRestClientApplication        : Started CactusRestClientApplication in 3.396 seconds (JVM running for 4.131)
+2021-03-24 17:34:28.343  INFO 3892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-24 17:34:28.344  INFO 3892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-24 17:34:28.346  INFO 3892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
