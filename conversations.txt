@@ -1,2 +1,0 @@
-1identifier: aspirin, representation: smilesasda, status: ERROR, response: Given identifier or representation is invalid.
-2identifier: aspirin, representation: smiles, status: SUCCESS, response: CC(=O)Oc1ccccc1C(O)=O
