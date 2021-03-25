@@ -48,7 +48,7 @@ public class Response {
 	
 	@Override
 	public String toString() {  
-		  return "identifier: " + this.getIdentifier() + ", representation: " + 
+		return "identifier: " + this.getIdentifier() + ", representation: " + 
 			this.getRepresentation() + 
 			", status: "+ this.getStatus() +
 			", response: "+ this.getResponse();  
