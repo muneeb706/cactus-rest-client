@@ -33,7 +33,7 @@ public class CustomLogger {
 				Files.createFile(path);
 			}
 			
-		    Files.write(path, logText.getBytes(), StandardOpenOption.APPEND);
+			Files.write(path, logText.getBytes(), StandardOpenOption.APPEND);
 		
 		} catch (IOException e) {
 		    System.out.println("Error: ".concat(e.getMessage()));
